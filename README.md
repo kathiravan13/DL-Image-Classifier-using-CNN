@@ -30,11 +30,12 @@ Evaluate the model using the test dataset and visualize the results (accuracy, c
 
 ## PROGRAM
 
-### Name: Kathiravan p
+### Name:Kathiravan
 
-### Register Number: 212222230063
+### Register Number:212222230063
 
 ```python
+## 
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -169,22 +170,22 @@ plt.imshow(test_data[334][0].reshape(28,28))
 plt.show()
 ```
 
-### OUTPUT:
+### OUTPUT
+
+## Training Loss per Epoch
+<img width="378" height="741" alt="image" src="https://github.com/user-attachments/assets/128e46fa-9c8c-4237-a591-c540006f2a55" />
 
 
 ## Confusion Matrix
-<img width="583" height="304" alt="image" src="https://github.com/user-attachments/assets/83e69e79-81b7-4286-840b-f52abb7ab697" />
-
+<img width="589" height="266" alt="image" src="https://github.com/user-attachments/assets/fdee9122-69ff-447d-b8b1-1ec80d5e3393" />
 
 ## Viaualization Graph
-<img width="968" height="535" alt="image" src="https://github.com/user-attachments/assets/1381e0fb-1b1e-4922-b43c-f43f6f848ded" />
-<img width="909" height="541" alt="image" src="https://github.com/user-attachments/assets/246507a3-e2c2-4bea-b6b8-32c0010c0589" />
-
+<img width="617" height="433" alt="image" src="https://github.com/user-attachments/assets/5b8e6538-e399-4aee-bc21-15ccc5ed0b59" />
+<img width="597" height="434" alt="image" src="https://github.com/user-attachments/assets/3c06b7ca-8f49-40c7-9779-51910622b11a" />
 
 
 ## New Sample Data Prediction
-<img width="727" height="518" alt="image" src="https://github.com/user-attachments/assets/1f911a5d-1394-4d52-8878-e23839b0313b" />
-
+<img width="470" height="417" alt="image" src="https://github.com/user-attachments/assets/4f62ff88-a088-4758-9c40-c52d6656eda9" />
 
 ## RESULT
 Thus the CNN model was trained and tested successfully on the MNIST dataset.
